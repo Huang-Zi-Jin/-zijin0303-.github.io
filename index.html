@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃子晉的個人名片</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+        }
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: white;
+            width: 90%;
+            max-width: 450px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+        .header p {
+            margin: 10px 0 0;
+            opacity: 0.8;
+        }
+        .content {
+            padding: 20px 30px;
+        }
+        .info-section {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .info-section h3 {
+            color: var(--accent-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+        .badge {
+            background: #e1f5fe;
+            color: #01579b;
+            padding: 5px 12px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: bold;
+            border: 1px solid #b3e5fc;
+        }
+        .school-info {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        .footer {
+            font-size: 12px;
+            color: #bbb;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <h1>黃子晉</h1>
+        <p>Zijin Huang</p>
+    </div>
+
+    <div class="content">
+        <div class="info-section">
+            <h3>🏫 學歷背景</h3>
+            <div class="school-info">
+                <strong>國立勤益科技大學</strong><br>
+                智慧自動化工程系
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>📜 專業證照</h3>
+            <div class="badge-container">
+                <span class="badge">氣壓 乙級</span>
+                <span class="badge">機電整合 丙級</span>
+                <span class="badge">電腦軟體應用 丙級</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 zijin33.uk | 已透過 GitHub Pages 安全發佈
+    </div>
+</div>
+
+</body>
+</html>
